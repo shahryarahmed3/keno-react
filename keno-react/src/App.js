@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Components/Header';
 import ButtonHeader from './Components/ButtonHeader';
 import Tabs from './Components/Tabs';
+import ButtonContainer from './Components/ButtonContainer';
+import BottomContainer from './Components/BottomContainer';
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header/>
       <Tabs/>
       <ButtonHeader/>
+      <ButtonContainer/>
+      <BottomContainer/>
     </div>
   );
 }
