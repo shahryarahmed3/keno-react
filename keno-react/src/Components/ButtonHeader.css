@@ -1,0 +1,15 @@
+.button-header {
+    background: linear-gradient(90deg, rgba(241,131,34,1) 0%, rgba(241,90,34,1) 50%, rgba(241,131,34,1) 100%);
+    max-width: 550px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Futura', 'Trebuchet MS', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    background-color: #1e90ff;
+}

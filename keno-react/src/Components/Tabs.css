@@ -1,0 +1,25 @@
+.tabs {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 580px;
+    width: 100%;
+}
+.tabs a {
+    background-color: #f15a22;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0; 
+    text-decoration: none;
+    margin-right: 5px;
+    flex: 1; 
+    text-align: center; 
+    
+}
+.tabs a:hover {
+    background-color: rgba(255, 140, 0, 0.685);
+    
+}
+.tabs a:active {
+    background-color: rgb(255, 89, 0);
+    
+}
